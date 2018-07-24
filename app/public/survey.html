@@ -62,8 +62,8 @@
 
                             <h3>You Wish To Control Lightning.</h3>
                             <select data-placeholder="" class="chosen-select" id="quest1">
-                                <option value=""></option>
-                                <option selected="selected" value="1">1</option>
+                                <option selected="selected" value="">Select Below</option>
+                                <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
@@ -74,8 +74,8 @@
 
                             <h3>Obi-Wan Kenobi is the Enemy</h3>
                             <select data-placeholder="" class="chosen-select" id="quest2">
-                                <option value=""></option>
-                                <option selected="selected" value="1">1</option>
+                                <option selected="selected" value="">Select Below</option>
+                                <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
@@ -86,8 +86,8 @@
 
                             <h3>Yoda Must Be Destroyed</h3>
                             <select data-placeholder="" class="chosen-select" id="quest3">
-                                <option value=""></option>
-                                <option selected="selected" value="1">1</option>
+                                <option selected="selected" value="">Select Below</option>
+                                <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
@@ -98,8 +98,8 @@
 
                             <h3>An Empire Is Stronger Than A Republic</h3>
                             <select data-placeholder="" class="chosen-select" id="quest4">
-                                <option value=""></option>
-                                <option selected="selected" value="1">1</option>
+                                <option selected="selected" value="">Select Below</option>
+                                <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
@@ -110,8 +110,8 @@
 
                             <h3>Order 66 Was a Necessary Clean Sweep.</h3>
                             <select data-placeholder="" class="chosen-select" id="quest5">
-                                <option value=""></option>
-                                <option selected="selected" value="1">1</option>
+                                <option selected="selected" value="">Select Below</option>
+                                <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
@@ -122,8 +122,8 @@
 
                             <h3>Droids are Overrated.</h3>
                             <select data-placeholder="" class="chosen-select" id="quest6">
-                                <option value=""></option>
-                                <option selected="selected" value="1">1</option>
+                                <option selected="selected" value="">Select Below</option>
+                                <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
@@ -134,8 +134,8 @@
 
                             <h3>The Dark Side is an Unknown Tremendous Power</h3>
                             <select data-placeholder="" class="chosen-select" id="quest7">
-                                <option value=""></option>
-                                <option selected="selected" value="1">1</option>
+                                <option selected="selected" value="">Select Below</option>
+                                <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
@@ -146,8 +146,8 @@
 
                             <h3>Red is Cooler Than Blue, Green, or Purple</h3>
                             <select data-placeholder="" class="chosen-select" id="quest8">
-                                <option value=""></option>
-                                <option selected="selected" value="1">1</option>
+                                <option selected="selected" value="">Select Below</option>
+                                <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
@@ -158,8 +158,8 @@
 
                             <h3>A giant Spherical Star in Space is the Ultimate Battle Axe</h3>
                             <select data-placeholder="" class="chosen-select" id="quest9">
-                                <option value=""></option>
-                                <option selected="selected" value="1">1</option>
+                                <option selected="selected" value="">Select Below</option>
+                                <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
@@ -170,8 +170,8 @@
 
                             <h3>The force is as you will. It has no limits.</h3>
                             <select data-placeholder="" class="chosen-select" id="quest10">
-                                <option value=""></option>
-                                <option selected="selected" value="1">1</option>
+                                <option selected="selected" value="">Select Below</option>
+                                <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4">4</option>
@@ -257,7 +257,7 @@
         });
 
         $("#closeModal").click(function () {
-            $.get('/', function (req, res) {
+            $.get('/survey.html', function (req, res) {
                 location.replace(res);
             })
         });
